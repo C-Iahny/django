@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ["PGDATABASE"],
-        'USER': os.environ["PGUSER"],
-        'PASSWORD': os.environ["PGPASSWORD"],
-        'HOST': os.environ["PGHOST"],
-        'PORT': os.environ["PGPORT"],
+        'NAME': os.environ["railway"],
+        'USER': os.environ["postgres"],
+        'PASSWORD': os.environ["ca--31FBAF*3CEf3-355f2BE23EF1Gag"],
+        'HOST': os.environ["viaduct.proxy.rlwy.net"],
+        'PORT': os.environ["12711"],
     }
 }
 
